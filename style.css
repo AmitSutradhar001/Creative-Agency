@@ -1,0 +1,77 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  background-color: #7daba9;
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+.card {
+  width: 45%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+h2 {
+  color: rgb(194, 127, 27);
+}
+
+h4 {
+  color: rgb(179, 19, 193);
+}
+
+.tile-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 50px;
+}
+.creative {
+  color: blue;
+}
+
+.amit {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .card {
+    width: 100px;
+    display: block;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  .card img {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline;
+  }
+}
